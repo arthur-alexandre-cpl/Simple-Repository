@@ -17,4 +17,4 @@ while acertou == False and tentativas < 10:
     except ValueError:
         print('Digite apenas números inteiros, amigo :/')
 if not acertou:
-    print(f'Você não conseguiu acertar. O número era: {nalt}')
+    print(f'Você não conseguiu acertar. O número era: {numero}')

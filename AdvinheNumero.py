@@ -1,15 +1,15 @@
 import random
 
-nalt = random.randint(1, 100)
+numero = random.randint(1, 100)
 acertou = False
 tentativas = 0
 while acertou == False and tentativas < 10:
     try:
         valor = int(input('Digite um número de 1 à 100:  '))
         tentativas += 1
-        if valor > nalt:
+        if valor > numero:
             print('Digite um número menor:  ')
-        elif valor < nalt:
+        elif valor < numero:
             print('Digite um número maior:  ')
         else:
             print('Parabéns! Você acertou :) ')
